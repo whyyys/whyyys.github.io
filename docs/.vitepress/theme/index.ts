@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme';
 import { Icon } from '@iconify/vue'; // 导入 Iconify 的 Icon 组件
 import { App } from 'vue';
+import './style/custom.css'; // 导入自定义样式
 
 export default {
   ...DefaultTheme,
