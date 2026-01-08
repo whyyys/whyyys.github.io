@@ -95,7 +95,8 @@ export default defineConfig({
   outDir: "dist", 
   srcDir: "src",
   lastUpdated: true,
-  vite: { server: {allowedHosts: true} }
+  vite: { server: {allowedHosts: true},
+          publicDir: "public" }
 })
 
 function nav(locale: string): DefaultTheme.NavItem[] {
